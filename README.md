@@ -1,16 +1,16 @@
 # PD2-Singleplayer
-This collection aims to include everything you'd want for singleplayer testing in [Project D2](https://www.projectdiablo2.com/). The singleplayer [PlugY mod](http://plugy.free.fr/) adds shared/personal stash pages and allows unlimited skill/stat resets as well as several other optional features. This collection includes a [custom build of PlugY](https://github.com/xkanzeon/PlugY-PD2-Version) based on v14.03 with settings adjusted for PD2. It also includes an item pack, characters, and modpacks for testing or advanced customization.
+This collection aims to include everything you'd want for singleplayer testing in [Project D2](https://www.projectdiablo2.com/). The singleplayer [PlugY mod](http://plugy.free.fr/) adds shared/personal stash pages and allows unlimited skill/stat resets as well as several other optional features. This collection includes a [custom build of PlugY](https://github.com/TDLofCC/PD2-PlugY) based on v14.03 with settings adjusted for PD2. It also includes an item pack, characters, and modpacks for testing or advanced customization.
 
-This repository combines both the [PD2-Singleplayer](https://github.com/BetweenWalls/PD2-Singleplayer) and [PD2-PlugY](https://github.com/BetweenWalls/PD2-PlugY) repositories from BetweenWalls in hopes of continuing maintenance.
+This repository combines both the [PD2-Singleplayer](https://github.com/BetweenWalls/PD2-Singleplayer) and [PD2-PlugY](https://github.com/BetweenWalls/PD2-PlugY) repositories from BetweenWalls. 
 
 ---
 
-### [Download PlugY with item pack and characters](https://github.com/xkanzeon/PD2-PlugY/raw/main/PD2-PlugY-with-Extras.zip) 
+### [Download PlugY with item pack and characters](https://github.com/TDLofCC/PD2-PlugY/blob/main/PD2-PlugY-with-Extras.zip) 
 
 ---
 
 Alternatively, if you are only interested in running PlugY cleanly:
-### [Download PlugY Only](https://github.com/xkanzeon/PD2-PlugY/raw/main/PD2-PlugY.zip)
+### [Download PlugY Only](https://github.com/TDLofCC/PD2-PlugY/blob/main/PD2-PlugY.zip)
 
 ---
 ### Non-PlugY
@@ -19,7 +19,7 @@ For the convenience of anyone not using PlugY or anyone using a PlugY config tha
 
 **NOTE: This will overwrite any <ins>offline</ins> shared stash data you already have. Backup your own pd2_shared.stash file if you have something you want to keep.**
 
-### [Download PD2 Shared Stash](https://github.com/xkanzeon/PD2-PlugY/raw/main/pd2_shared.stash)
+### [Download PD2 Shared Stash](https://github.com/TDLofCC/PD2-PlugY/blob/main/pd2_shared.stash)
 
 ---
 
@@ -32,26 +32,10 @@ For the convenience of anyone not using PlugY or anyone using a PlugY config tha
 3. Run **PlugY.exe** as administrator
 
 ---
-### Season 12 Progress
-
-- [X] New uniques
-- [X] Anniversary uniques (currently not max stats)
-- [X] New map (Missing unid and need to roll some magic/rare variants)
-- [ ] Updated uniques
-- [ ] Updated sets
-- [ ] Updated maps
-- [ ] Update runewords
-- [X] Update "official" modpack
-- [ ] Update "max_stats" modpack (Uniques and sets are good to go.)
-- [ ] Update "testing" modpack (CubeMain's deterministic corrupts and re-crafting could use some love.)
-- [ ] Split PlugY.ini (This will be getting two versions. One for pure PlugY and one for PD2 stash.)
-- [ ] Other stuff?
-
----
 
 When new seasons/patches are released, you'll need to run PD2 via the launcher to update the game. Running the game via the launcher will also update your lootfilter.
 
-The **PlugY (testing)** file is a shortcut for using [modpacks](https://github.com/xkanzeon/PD2-PlugY/tree/main#modpacks).
+The **PlugY (testing)** file is a shortcut for using [modpacks](https://github.com/TDLofCC/PD2-PlugY/tree/main#modpacks).
 
 ### Troubleshooting
 Setup:
@@ -112,7 +96,7 @@ Additionally, the **Bases** assassin character has a personal stash with etherea
 
 The **Legacy** paladin character has select items from previous seasons.
 
-Items can be duplicated by making a file backup of the shared stash and transfering items from the stash to a character before restoring the stash file, or vice versa. Files can also be set as "read only" to eliminate the need to backup and restore them for each transfer. The fastest way to duplicate items is to use the "testing" [modpack](https://github.com/xkanzeon/PD2-PlugY/tree/main#modpacks).
+Items can be duplicated by making a file backup of the shared stash and transfering items from the stash to a character before restoring the stash file, or vice versa. Files can also be set as "read only" to eliminate the need to backup and restore them for each transfer. The fastest way to duplicate items is to use the "testing" [modpack](https://github.com/TDLofCC/PD2-PlugY/tree/main#modpacks).
 
 There are in-game commands for renaming stash pages and moving stash pages around, as well as some other useful commands - checkout the PlugY [Readme](https://raw.githubusercontent.com/xkanzeon/PD2-PlugY/main/ProjectD2/PlugY_The_Survival_Kit_-_Readme.txt) file.
 
@@ -147,9 +131,9 @@ If the items in this collection are insufficient, you may want to look into [tex
 These steps have already been done for this collection - the game's text files are in **Diablo II\ProjectD2\data\global\excel\modpacks** along with modified text files from the "testing" modpack in the above folder.
 
 ## Modpacks
-[Modpacks](https://github.com/xkanzeon/PD2-PlugY/tree/main/ProjectD2/data/global/excel/modpacks) are custom game modifications. They can alter the game in a variety of ways and have different purposes, such as streamlining testing or improving normal gameplay. Some modpacks may be minimalist (only adding minor quality-of-life features and fixing bugs) while others may be major overhauls with significant balance changes or new features.
+[Modpacks](https://github.com/TDLofCC/PD2-PlugY/tree/main/ProjectD2/data/global/excel/modpacks) are custom game modifications. They can alter the game in a variety of ways and have different purposes, such as streamlining testing or improving normal gameplay. Some modpacks may be minimalist (only adding minor quality-of-life features and fixing bugs) while others may be major overhauls with significant balance changes or new features.
 
-The ["testing"](https://github.com/xkanzeon/PD2-PlugY/tree/main/ProjectD2/data/global/excel/modpacks/testing) modpack is setup by default to help with acquiring specific items for more thorough testing. It is not designed for normal gameplay - when used alongside the item pack, it trivializes item acquisition. You'll only need to launch the **PlugY.exe (testing)** shortcut to get access to several useful cube recipes from the "testing" modpack:
+The ["testing"](https://github.com/TDLofCC/PD2-PlugY/tree/main/ProjectD2/data/global/excel/modpacks/testing) modpack is setup by default to help with acquiring specific items for more thorough testing. It is not designed for normal gameplay - when used alongside the item pack, it trivializes item acquisition. You'll only need to launch the **PlugY.exe (testing)** shortcut to get access to several useful cube recipes from the "testing" modpack:
 * reroll any non-crafted item with Horadrim Orb
 * duplicate most items with Key, duplicate jewels with Jewel Fragments
 * use crafted items as ingredients for crafting recipes
@@ -163,33 +147,5 @@ The ["testing"](https://github.com/xkanzeon/PD2-PlugY/tree/main/ProjectD2/data/g
 
 After getting whatever items you want via the "testing" modpack or other modifications, simply run the original **PlugY.exe** file to make the game run normally. The original game files aren't changed so you can experiment with text mods like this without fear of messing something up.
 
-If you've made your own PD2 modpack and would like it to be available here, I'd be glad to add it.
-
 ## Feedback
-If you would like to improve this collection with additional items, or just want to share feedback about how it could be improved, you can message me on reddit ([u/BetweenWalls](https://www.reddit.com/message/compose/?to=BetweenWalls)) or discord (@BetweenWalls). You can also just open an [issue](https://github.com/xkanzeon/PD2-PlugY/issues) here.
-
-Update: I (Kanzeon) will be attempting to maintain in BetweenWalls's GitHub absence. This means that updates to the item pack or submitted modpacks may not be put into place as promptly as they were before. If BetweenWalls does make a return to continue his repos, I'll direct download links to the respective repos.
-
-Potential Improvements:
-* Testing charms with individual corruption stats or other stats with more granular values
-* More examples of regular item bases with different +3 pointmods
-* More examples of useful magic items like +3 skill tree & +3 pointmod items or vanilla classics like JMoD
-* More examples of rare/crafted items
-* Examples of popular low-level dueling (LLD) charms and other PvP-relevant items
-* More "showcase" characters
-
-<!-- Notes
-Low Priority Improvements
-* Ethereal versions of certain skill-specific items (Spirit Keeper, Ormus' Robes, Spirit Ward)
-* Some generated rare/crafted items have incorrect required levels
-* Some generated runeword item bases are missing certain stats, such as 10-50% FCR for staves
-* Some example runewords are made with items that have higher level requirements than the runewords themselves
--->
-
----
-
-If this repository does not receive an update by June/July-ish 2026 (even just to remove this notice), a successful suicide can be assumed--marking the end of future update chances as well.
-
-<div align=right>
-- Kanzeon
-</div>
+I (TDL) created this repository for my own SP testing, all I do is update a few items. I won't be adding any new functionalities. Feel free to fork and update/work on it!
