@@ -1,7 +1,7 @@
 # PD2-Singleplayer
 This collection aims to include everything you'd want for singleplayer testing in [Project D2](https://www.projectdiablo2.com/). The singleplayer [PlugY mod](http://plugy.free.fr/) adds shared/personal stash pages and allows unlimited skill/stat resets as well as several other optional features. This collection includes a [custom build of PlugY](https://github.com/TDLofCC/PD2-PlugY) based on v14.03 with settings adjusted for PD2. It also includes an item pack, characters, and modpacks for testing or advanced customization.
 
-This repository combines both the [PD2-Singleplayer](https://github.com/BetweenWalls/PD2-Singleplayer) and [PD2-PlugY](https://github.com/BetweenWalls/PD2-PlugY) repositories from BetweenWalls and is forked from [PD2-Plugy](https://github.com/xkanzeon/PD2-PlugY) by xKanzeon.
+This repository combines both the [PD2-Singleplayer](https://github.com/BetweenWalls/PD2-Singleplayer) and [PD2-PlugY](https://github.com/BetweenWalls/PD2-PlugY) repositories from BetweenWalls and is forked from [PD2-Plugy](https://github.com/xkanzeon/PD2-PlugY) by xKanzeon. Big thank you to both of them, they made a lot of SP testing possible for me ;)
 
 ---
 
@@ -28,7 +28,7 @@ For the convenience of anyone not using PlugY or anyone using a PlugY config tha
 2. Copy the **ProjectD2** and **Save** folders from the downloaded file into your own **Diablo II** folder
     * If you want the item pack, copy the files in **Save\Library** into your **Save** folder (don't overwrite your stash file without backups)
     * If you want additional characters, copy them from the subfolders within **Save\Library** into your **Save** folder
-    * If you want to customize any PlugY features, they can be enabled/disabled within the **PlugY.ini** file (see the [Readme](https://raw.githubusercontent.com/xkanzeon/PD2-PlugY/main/ProjectD2/PlugY_The_Survival_Kit_-_Readme.txt))
+    * If you want to customize any PlugY features, they can be enabled/disabled within the **PlugY.ini** file (see the [Readme](https://github.com/TDLofCC/PD2-PlugY/blob/main/ProjectD2/PlugY_The_Survival_Kit_-_Readme.txt))
 3. Run **PlugY.exe** as administrator
 
 ---
@@ -98,7 +98,7 @@ The **Legacy** paladin character has select items from previous seasons.
 
 Items can be duplicated by making a file backup of the shared stash and transfering items from the stash to a character before restoring the stash file, or vice versa. Files can also be set as "read only" to eliminate the need to backup and restore them for each transfer. The fastest way to duplicate items is to use the "testing" [modpack](https://github.com/TDLofCC/PD2-PlugY/tree/main#modpacks).
 
-There are in-game commands for renaming stash pages and moving stash pages around, as well as some other useful commands - checkout the PlugY [Readme](https://raw.githubusercontent.com/xkanzeon/PD2-PlugY/main/ProjectD2/PlugY_The_Survival_Kit_-_Readme.txt) file.
+There are in-game commands for renaming stash pages and moving stash pages around, as well as some other useful commands - checkout the PlugY [Readme](https://github.com/TDLofCC/PD2-PlugY/blob/main/ProjectD2/PlugY_The_Survival_Kit_-_Readme.txt) file.
 
 ## Characters
 This collection includes blank characters of each class at levels 30, 70, 80, 90, and 99. These characters can be edited with vanilla editors prior to being loaded in-game.
@@ -107,7 +107,7 @@ Several "showcase" characters are also included for each class. These characters
 
 Included characters are *not* currently Andariel-quest-bugged, which is something that can only occur in singleplayer. To quest-bug a blank character, reset their Andariel quest in Hero Editor and do the bug in-game.
 
-Characters can be renamed by using the ***/renamechar newname*** command. Checkout the PlugY [Readme](https://raw.githubusercontent.com/xkanzeon/PD2-PlugY/main/ProjectD2/PlugY_The_Survival_Kit_-_Readme.txt) file for other useful commands.
+Characters can be renamed by using the ***/renamechar newname*** command. Checkout the PlugY [Readme](https://github.com/TDLofCC/PD2-PlugY/blob/main/ProjectD2/PlugY_The_Survival_Kit_-_Readme.txt) file for other useful commands.
 
 ## Editing
 The included blank characters can be edited with [Hero Editor](https://www.moddb.com/games/diablo-2-lod/downloads/hero-editor-v-104) or other editors, but only until they're loaded in-game. Once you play a character and save it, the character's file will be formatted differently. If you're making many edits, create copies of the unplayed character files before entering the game with them. The [PD2-Converter](https://github.com/BetweenWalls/PD2-Converter#simple-characterstash-converter-for-pd2) may also be useful for converting certain files from PD2 to vanilla in order to edit them, although it was primarily designed for converting files in the opposite direction.
