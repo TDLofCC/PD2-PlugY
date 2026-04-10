@@ -1,7 +1,7 @@
 # PD2-Singleplayer
 This collection aims to include everything you'd want for singleplayer testing in [Project D2](https://www.projectdiablo2.com/). The singleplayer [PlugY mod](http://plugy.free.fr/) adds shared/personal stash pages and allows unlimited skill/stat resets as well as several other optional features. This collection includes a [custom build of PlugY](https://github.com/TDLofCC/PD2-PlugY) based on v14.03 with settings adjusted for PD2. It also includes an item pack, characters, and modpacks for testing or advanced customization.
 
-This repository combines both the [PD2-Singleplayer](https://github.com/BetweenWalls/PD2-Singleplayer) and [PD2-PlugY](https://github.com/BetweenWalls/PD2-PlugY) repositories from BetweenWalls. 
+This repository combines both the [PD2-Singleplayer](https://github.com/BetweenWalls/PD2-Singleplayer) and [PD2-PlugY](https://github.com/BetweenWalls/PD2-PlugY) repositories from BetweenWalls and is forked from [PD2-Plugy](https://github.com/xkanzeon/PD2-PlugY) by xKanzeon.
 
 ---
 
