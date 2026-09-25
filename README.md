@@ -3,6 +3,8 @@ This collection aims to include everything you'd want for singleplayer testing i
 
 This repository combines both the [PD2-Singleplayer](https://github.com/BetweenWalls/PD2-Singleplayer) and [PD2-PlugY](https://github.com/BetweenWalls/PD2-PlugY) repositories from BetweenWalls and is forked from [PD2-Plugy](https://github.com/xkanzeon/PD2-PlugY) by xKanzeon. I will not do any updating to PlugY itself, but I will try to keep the items updated.
 
+Current version is (mostly) updated to Project Diablo 2 Season 13. If the item still has outdated stats, reroll them with a demonic cube!
+
 Big thank you to both BetweenWalls and xKanzeon, they made a lot of SP testing possible for me ;)
 
 ---
